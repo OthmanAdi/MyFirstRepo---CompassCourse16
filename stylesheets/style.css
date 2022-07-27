@@ -11,7 +11,7 @@ body { /*Selector*/
     /*Properties Field*/
 }
 
-.container {
+.container-fluid {
     height: 100vh;
     background: linear-gradient(to top, cornflowerblue, coral, transparent);
     display: grid;
@@ -60,16 +60,19 @@ body { /*Selector*/
     left: 0;
 }
 
-.navContainer .nav{
+.navContainer .nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.nav .ul{
+.nav .ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /*Implementing New Code*/
+.heroSection {
+    text-align: center;
+}
